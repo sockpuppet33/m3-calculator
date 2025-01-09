@@ -1,0 +1,14 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.ffield {
+    color: green;
+    text-decoration: underline;
+    font-style: italic;
+    text-decoration-color: red;
+}
+
+h1 {
+    color: purple;
+}
