@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Результаты формы</title>
+        <link rel="stylesheet" href="../../static/css/style-formresult.css"> 
+    </head>
+    <body>
+        {% block content %}
+        <h1>Спасибо за заполнение формы!</h1>
+        <p>Ваше имя: <span class="ffield">{{ name }}</span></p>
+        <p>Ваш email: <span class="ffield">{{ email }}</span></p>
+        <p>Ваш адрес: <span class="ffield">{{ address }}</span></p>
+        <p>Ваша дата: <span class="ffield">{{ date }}</span></p>
+        {% endblock %}
+    </body>
+</html>
